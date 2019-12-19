@@ -1,0 +1,16 @@
+CREATE TABLE authen(
+                     user_id varchar(32) primary key ,
+                     passphrase varchar(32) not null,
+                     user_name varchar(32) not null,
+                     user_role varchar(32) not null
+);
+
+INSERT INTO authen
+values ( 't001','qwert','Hikari Chitose','teacher' ),
+       ( 's001','asdfg','Taro Naganuma','student');
+
+INSERT INTO authen
+values ('matuda kouki','zxcvb','Matuda Kouki','student');
+
+INSERT INTO authen
+values ('tanaka_tarou','01234','Tanaka Tarou','student');
