@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action='yasusi' th:action="@{id(id=${studentId})}" method='post'>
+    <textarea name='text' placeholder='コメントを入力して下さい' cols='40' rows='5'></textarea>
+    <button type='submit'>投稿する</button>
+</form>
+
+</body>
+</html>
